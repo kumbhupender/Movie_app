@@ -1,0 +1,8 @@
+//making these function as pure func
+
+export default function movies(state = [], action) {
+  if (action.type === "ADD_MOVIES") {
+    return action.movies;
+  }
+  return state;
+}
