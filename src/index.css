@@ -72,6 +72,9 @@ code {
   max-width: 75%;
   margin-top: 3rem;
 }
+.tab.mov-tab:hover{
+  background-color: rgb(24, 149, 165);
+}
 
 /* MovieCard */
 .movie-card{
@@ -117,4 +120,8 @@ code {
     background-color: rgb(98, 195, 234);
     cursor: pointer;
     margin: 3rem 0rem;
+}
+.unfav{
+  background-color: red;
+  color : #fff;
 }
